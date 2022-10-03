@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio_11</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <h1>Depto. de Seguridad Pública y Transito de desea saber de los n autos que entran a la ciudad de Bogotá, cuantos entran con calcomanía de cada color. Conociendo el último dígito de la placa de cada automóvil se puede determinar el color de la calcomanía utilizando la sig. Relación: <br>DÍGITO COLOR<br>1 o 2 amarilla<br>3 o 4 rosa<br>5 o 6 roja<br>7 o 8 verde<br>9 o 0 azul</h1>
-        
-    <script src="main.js"></script>
+    <title>Ejercicio 18</title>
 </head>
 <body>
+<h1>18. Calcular el sueldo de un empleado dados comodatos de entrada: el nombre, hrs. De trabajo y el pago en hora</h1>
+<div class="contenedor">
+    <div class="variables">
+        <form name="" id="miCalculadora">
+            <input type="text" id="nombre" placeholder="Ingrese el nombre del empleado" autofocus>
+            <input type="text" id="horas" placeholder="Ingrese la cantidad de horas laboradas">
+            <div class="operaciones">
+                <button type="button" onclick="calcular();">Calcular</button>
+                <button type="button" onclick="limpiar();">Limpiar</button>
+            </div>
+            <div class="resultado" id="resultado"></div>
+        </form>
+    </div>
+</div>
 
+<!-- Cargamos el archivo js dónde se realiza la lógica de negocio-->
+<script src="main.js"></script>
 </body>
 </html>
