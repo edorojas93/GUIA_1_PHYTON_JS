@@ -30,7 +30,6 @@ input{
     padding: 10px;
     margin-bottom: 5px;
 }
-
 .operaciones{
     display: block;
 }
@@ -38,30 +37,7 @@ input{
     width: 100%;
     display: block;
     text-align: left;
-    padding: 10px 0;
+    padding: 10px;
     font-size: 1.5rem;
     color: gray;
 }
-.alarma{
-    width: 100%;
-    display: none;
-    text-align: left;
-    padding: 10px;
-    font-size: 1.2rem;
-    background-color: red;
-    color: white;
-}
-#frmTriangulo{
-    display: none;
-}
-#frmCirculo{
-    display: none;
-}
-select{
-    display: block;
-    height: 40px;
-    padding: 10px 20px;
-    margin-bottom: 5px;
-}
-
-
