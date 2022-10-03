@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 h1{
     text-align: center;
@@ -22,20 +22,44 @@ button:hover{
     background-color: darkgrey;
 }
 .variables{
+    width: 350px;
     display: block;
 }
 input{
     width: 100%;
     padding: 10px;
+    margin-bottom: 5px;
 }
+
 .operaciones{
     display: block;
 }
 .resultado{
     width: 100%;
     display: block;
-    text-align: center;
-    padding: 20px;
-    font-size: 5rem;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 1.5rem;
     color: gray;
+}
+.alarma{
+    width: 100%;
+    display: none;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+}
+#frmTriangulo{
+    display: none;
+}
+#frmCirculo{
+    display: none;
+}
+select{
+    display: block;
+    height: 40px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
 }
